@@ -17,5 +17,5 @@ kubectl create configmap \
   --from-file=sentinel.sh=./sentinel.sh \
 redis-config
 
+kubectl apply -f 14-9-redis-service.yaml
 kubectl apply -f 14-10-redis.yaml
-kubectl apply -f 14-11-redis.yaml
