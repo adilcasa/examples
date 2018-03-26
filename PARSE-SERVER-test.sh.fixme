@@ -6,7 +6,8 @@ set -x
 # From:
 # http://docs.parseplatform.org/parse-server/guide/#saving-your-first-object
 
-IP=10.192.3.5
+# Use kubectl get svc parse-server
+IP=10.103.156.129
 
 curl -X POST \
     -H "X-Parse-Application-Id: my-app-id" \
